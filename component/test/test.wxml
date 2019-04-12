@@ -1,0 +1,9 @@
+<view class='test'>
+
+  <text bindtap='customMethod'>
+    {{innerText}}
+  </text>
+
+  <slot></slot>
+
+</view>

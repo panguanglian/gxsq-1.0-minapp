@@ -1,0 +1,4 @@
+/* pages/home/home.wxss */
+.home .content{
+    padding-top: 45px;
+}

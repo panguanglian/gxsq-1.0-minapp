@@ -1,0 +1,5 @@
+/* pages/login/login.wxss */
+pages {
+  width: 100%;
+  min-height: 100%;
+}

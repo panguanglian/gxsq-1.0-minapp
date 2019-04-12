@@ -1,0 +1,25 @@
+<!--pages/home/home.wxml-->
+<view class="home">
+    <!-- tab导航栏 -->
+    <i-tabs current="{{ current }}" color="#2b99ff" bindchange="handleChange" fixed="true">
+        <i-tab key="tab1" title="广场"></i-tab>
+        <i-tab key="tab2" title="校友圈"></i-tab>
+        <i-tab key="tab3" title="生活"></i-tab>
+    </i-tabs>
+
+    <view class="content">
+        <view class="tab1" wx:if="{{current == 'tab1'}}">
+            <myTab1></myTab1>
+        </view>
+
+        <view class="tab2" wx:if="{{current == 'tab2'}}">
+            {{current}}
+        </view>
+
+        <view class="tab3" wx:if="{{current == 'tab3'}}">
+            {{current}}
+        </view>
+
+    </view>
+
+</view>
